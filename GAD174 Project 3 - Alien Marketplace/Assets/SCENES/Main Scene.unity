@@ -1293,10 +1293,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 6ad5c343d96a13d4ba0191c0b7586701, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3e8375f428f6e9047a83dcfac6ff6b15, type: 2}
     - target: {fileID: 919132149155446097, guid: 6ad5c343d96a13d4ba0191c0b7586701, type: 3}
       propertyPath: m_Name
       value: Monument
@@ -2100,10 +2096,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: cfe64f06de3c4264b8f48247b2b64f81, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 648c054d1f6f9b14e948696c90724f41, type: 2}
     - target: {fileID: 919132149155446097, guid: cfe64f06de3c4264b8f48247b2b64f81, type: 3}
       propertyPath: m_Name
       value: Metal House Final Model v2
@@ -3946,7 +3938,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071295238}
-  m_LocalRotation: {x: 0.12280472, y: -0.0048092296, z: 0.00059510756, w: 0.99241906}
+  m_LocalRotation: {x: 0.12280472, y: -0.004809187, z: 0.0005951022, w: 0.99241906}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
