@@ -9,6 +9,11 @@ public class PauseMenu : MonoBehaviour
     private bool isPaused = false;
     public GameObject PauseGame;
 
+    private void Start()
+    {
+        Cursor.visible = false;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -16,6 +21,8 @@ public class PauseMenu : MonoBehaviour
         {
             isPaused = true;
             PauseGame.SetActive(true);
+            Cursor.visible = true;
+            Time.timeScale = 0;
         }
     }
 
@@ -23,11 +30,17 @@ public class PauseMenu : MonoBehaviour
     {
         isPaused = false;
         PauseGame.SetActive(false);
+        Cursor.visible = false;
+        Time.timeScale = 1;
     }
 
     public void RestartGame()
     {
+        /*isPaused = false;
+        PauseGame.SetActive(false);*/
+        Cursor.visible = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1;
     }
 
     public void QuitGame()
