@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 6ad5c343d96a13d4ba0191c0b7586701
+guid: 8e2dc65f9e21a7b45b8720d02b0cc945
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Monument_double_mesh_s_0112Mat
+    second: {fileID: 2100000, guid: c839ae6b330b8e94bbfe899f59648a2d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
