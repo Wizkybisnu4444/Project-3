@@ -8,6 +8,8 @@ public class PauseMenu : MonoBehaviour
 
     private bool isPaused = false;
     public GameObject PauseGame;
+    public Animator transitionAnim;
+    public float myTimer;
 
     private void Start()
     {
@@ -17,7 +19,13 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && isPaused == false)
+        myTimer += Time.deltaTime;
+        if(myTimer >= 5)
+        {
+            myTimer = 5;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape) && isPaused == false && myTimer >= 1)
         {
             isPaused = true;
             PauseGame.SetActive(true);
@@ -28,23 +36,32 @@ public class PauseMenu : MonoBehaviour
 
     public void ResumeGame()
     {
-        isPaused = false;
-        PauseGame.SetActive(false);
-        Cursor.visible = false;
         Time.timeScale = 1;
+        isPaused = false;
+        StartCoroutine(ResumeScene());
     }
 
     public void RestartGame()
     {
-        /*isPaused = false;
-        PauseGame.SetActive(false);*/
         Cursor.visible = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
     }
 
-    public void ReturnToMain()
+    public void MainMenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        isPaused = false;
+        PauseGame.SetActive(false);
+        Cursor.visible = true;
+        Time.timeScale = 1;
     }
+
+    IEnumerator ResumeScene()
+    {
+        transitionAnim.SetTrigger("end");
+        yield return new WaitForSeconds(1f);
+        PauseGame.SetActive(false);
+        Cursor.visible = false;
+    }
+
 }
