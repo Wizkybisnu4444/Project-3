@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: b7501ab7e85fa5247842a2eea92b39f8, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -708,7 +708,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1a59967bb356aaa4b8aafa9e6ffd985d, type: 2}
+  - {fileID: 2100000, guid: 894ea6f8cae28454b8dbc5fb9526207b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -745,13 +745,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 161648568}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.7071062, z: -0, w: -0.7071075}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -450, z: 0}
 --- !u!4 &180130248 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6375769329683196302, guid: 244c008cdae8bb448b6a189d03cffab7, type: 3}
@@ -5047,7 +5047,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cfe64f06de3c4264b8f48247b2b64f81, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.200001
+      value: -9.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cfe64f06de3c4264b8f48247b2b64f81, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5055,11 +5055,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cfe64f06de3c4264b8f48247b2b64f81, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.099998
+      value: -5.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cfe64f06de3c4264b8f48247b2b64f81, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.38268325
+      value: -0.49396306
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cfe64f06de3c4264b8f48247b2b64f81, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5067,7 +5067,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cfe64f06de3c4264b8f48247b2b64f81, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9238796
+      value: 0.86948293
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cfe64f06de3c4264b8f48247b2b64f81, type: 3}
       propertyPath: m_LocalRotation.z
@@ -5079,7 +5079,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cfe64f06de3c4264b8f48247b2b64f81, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 225
+      value: 239.203
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cfe64f06de3c4264b8f48247b2b64f81, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -8006,7 +8006,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593685149}
-  m_LocalRotation: {x: 0.14220116, y: -0.0000000030900242, z: -4.4395823e-10, w: 0.98983777}
+  m_LocalRotation: {x: 0.14220116, y: 0.0000000030900242, z: 4.4395787e-10, w: 0.98983777}
   m_LocalPosition: {x: 2.58, y: 6, z: 7.8999996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -10279,7 +10279,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071295238}
-  m_LocalRotation: {x: 0.12422062, y: 0.000000017073113, z: -0.0000000021373876, w: 0.9922547}
+  m_LocalRotation: {x: 0.12422062, y: -0.00000001707311, z: 0.0000000021373872, w: 0.9922547}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
