@@ -43,9 +43,8 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    public void QuitGame()
+    public void ReturnToMain()
     {
-        Debug.Log("Quitting Game...");
-        Application.Quit();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

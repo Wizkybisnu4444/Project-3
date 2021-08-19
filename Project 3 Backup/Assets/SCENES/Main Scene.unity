@@ -1985,6 +1985,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Barrier (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 208192789550515883, guid: e5809b4696e558b4287c71bb16464980, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5809b4696e558b4287c71bb16464980, type: 3}
 --- !u!1 &460387890
@@ -4572,7 +4576,7 @@ GameObject:
   - component: {fileID: 974951144}
   - component: {fileID: 974951143}
   m_Layer: 5
-  m_Name: QuitButton
+  m_Name: MainMenuButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4644,7 +4648,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 156822233}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: ReturnToMain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4779,7 +4783,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Quit
+  m_Text: Main Menu
 --- !u!222 &1010874050
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6853,7 +6857,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1421296684}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player Barriers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7153,7 +7157,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2bc7ef3af90f87b4da986b503e721a44, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -8177,7 +8181,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593685149}
-  m_LocalRotation: {x: 0.14220116, y: 0.0000000030900242, z: 4.4395787e-10, w: 0.98983777}
+  m_LocalRotation: {x: 0.14220116, y: -0.0000000030900242, z: -4.4395823e-10, w: 0.98983777}
   m_LocalPosition: {x: 2.58, y: 6, z: 7.8999996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -8892,6 +8896,10 @@ PrefabInstance:
     - target: {fileID: 208192789550515883, guid: e5809b4696e558b4287c71bb16464980, type: 3}
       propertyPath: m_Name
       value: Player Barrier (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 208192789550515883, guid: e5809b4696e558b4287c71bb16464980, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5809b4696e558b4287c71bb16464980, type: 3}
@@ -9956,6 +9964,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Barrier (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 208192789550515883, guid: e5809b4696e558b4287c71bb16464980, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5809b4696e558b4287c71bb16464980, type: 3}
 --- !u!1 &1939376443 stripped
@@ -10534,7 +10546,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071295238}
-  m_LocalRotation: {x: 0.12422062, y: -0.00000001707311, z: 0.0000000021373872, w: 0.9922547}
+  m_LocalRotation: {x: 0.12422062, y: 0.000000017073113, z: -0.0000000021373876, w: 0.9922547}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -10929,6 +10941,10 @@ PrefabInstance:
     - target: {fileID: 208192789550515883, guid: e5809b4696e558b4287c71bb16464980, type: 3}
       propertyPath: m_Name
       value: Player Barrier
+      objectReference: {fileID: 0}
+    - target: {fileID: 208192789550515883, guid: e5809b4696e558b4287c71bb16464980, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5809b4696e558b4287c71bb16464980, type: 3}
