@@ -37,7 +37,6 @@ public class PauseMenu : MonoBehaviour
     public void ResumeGame()
     {
         Time.timeScale = 1;
-        isPaused = false;
         StartCoroutine(ResumeScene());
     }
 
@@ -60,6 +59,7 @@ public class PauseMenu : MonoBehaviour
     {
         transitionAnim.SetTrigger("end");
         yield return new WaitForSeconds(1f);
+        isPaused = false;
         PauseGame.SetActive(false);
         Cursor.visible = false;
     }
